@@ -1,0 +1,26 @@
+.text_activites p{
+    font-size: 21px;
+    width: 600px;
+    text-align: center;
+    margin : 10px auto 10px auto;
+    font-weight: bold;
+}
+
+
+.text_quote blockquote{
+    font-size: 21px;
+    width: 600px;
+    text-align: center;
+    margin : 10px auto 10px auto;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.text_quote p{
+    
+    text-align: center;
+    margin : auto;
+
+
+}

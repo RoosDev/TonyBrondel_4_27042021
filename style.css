@@ -14,8 +14,11 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline overline;
+    background-color: #303030;
     cursor: pointer;
+    border-radius: 50px;
+    font-size: 20px;
 }
 
 #page-loading-blocs-notifaction {
@@ -759,7 +762,6 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
 }
 
 .bgc-white {
