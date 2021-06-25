@@ -85,25 +85,25 @@
 						<label for="name">
 							Nom
 						</label>
-						<input id="name" aria-label="Nom" class="form-control" required />
+						<input id="name" aria-required="true" class="form-control" aria-autocomplete="inline" aria-placeholder="exemple : Paul Dupont" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" aria-label="adresse email" class="form-control" type="email" required />
+						<input id="email" aria-placeholder="exemple : pauldupont@gmail.com" class="form-control" type="email" aria-autocomplete="list" required />
 					</div>
 					<div class="form-group">
 						<label for="connu">
 							Comment nous avez-vous connu ?
 						</label>
-						<input id="connu" aria-labelledby="Comment nous avez vous connu ?" class="form-control" type="text" required id="input_504" />
+						<input id="connu" aria-placeholder="exemple : Par le JT de Jean-Pierre pernod" class="form-control" type="text" aria-required="true" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-						<textarea id="message" aria-describedby="Brief de votre projet, Ajoutez autant de détails que nécessaire" class="form-control" rows="4" cols="50" required></textarea>
+						<textarea id="message"  aria-required="true" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button role="button" aria-label="Envoyer" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
