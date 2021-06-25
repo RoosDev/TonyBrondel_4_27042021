@@ -714,7 +714,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+    color: #303030 !important;
 }
 
 .tight-width-whitespace {
@@ -790,7 +791,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(255,255,255, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -816,12 +817,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #303030!important;
 }
 
 .btn-atomic-tangerine:hover , .btn-atomic-tangerine:focus {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #303030!important;
 }
 
 .ltc-white {
@@ -982,7 +983,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: #303030;
     }
     .hero {
         padding: 50px 0;

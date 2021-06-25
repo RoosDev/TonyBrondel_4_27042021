@@ -1,9 +1,16 @@
-.text_activites p{
+.text_activites h2{
     font-size: 21px;
     width: 600px;
     text-align: center;
     margin : 10px auto 10px auto;
     font-weight: bold;
+}
+
+main #bloc-3-what-i-do .text--intention{
+    font-size: 21px;
+    font-weight: bold;
+    color: #303030;
+
 }
 
 
@@ -22,5 +29,10 @@
     text-align: center;
     margin : auto;
 
+
+}
+
+.grey{
+    color: #303030 !important;
 
 }
