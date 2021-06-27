@@ -1,6 +1,6 @@
 .text_activites h2{
     font-size: 21px;
-    width: 600px;
+    max-width: 600px;
     text-align: center;
     margin : 10px auto 10px auto;
     font-weight: bold;
@@ -16,7 +16,7 @@ main #bloc-3-what-i-do .text--intention{
 
 .text_quote blockquote{
     font-size: 21px;
-    width: 600px;
+    max-width: 600px;
     text-align: center;
     margin : 10px auto 10px auto;
     font-weight: bold;
