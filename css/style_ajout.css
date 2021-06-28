@@ -40,8 +40,17 @@ header {
   align-items: center;
 }
 
-.header__logo {
+#header__logo {
   width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header #header__logo img {
+  width: 215px;
+  height: 40px;
   margin: auto;
 }
 
@@ -78,8 +87,14 @@ nav ul li a {
   width: 100%;
 }
 
+main #premierbloc img {
+  width: 100px;
+  height: 100px;
+}
+
 main #bloc-4-portfolio a img {
-  max-width: 270px;
+  width: 300px;
+  height: 300px;
   margin: auto;
 }
 
@@ -93,15 +108,18 @@ footer form button {
   header {
     flex-flow: column nowrap;
   }
-  header .header__logo {
+  header #header__logo {
     width: 100%;
-    margin: 20px;
+    margin: auto;
+    display: flex;
   }
+
   header nav {
     width: 100%;
   }
   header nav ul {
     width: 100%;
+    min-width: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
@@ -112,7 +130,20 @@ footer form button {
     min-width: 150px;
   }
 
-  main #bloc-4-portfolio a img {
-    max-width: 300px;
+  header nav li:hover {
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.2);
+  }
+}
+@media only screen and (max-width: 480px) {
+  header nav ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  header nav li {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
