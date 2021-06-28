@@ -39,25 +39,25 @@ main #bloc-3-what-i-do .text--intention{
 
 header{
     width: 60%;
+    margin: auto;
     min-height: 75px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
 }
 
-    header .header__logo {
-        width: 25%;
+    .header__logo {
+        width: 30%;
         margin: auto;
 
     }
 
 
-    header nav{
-        width: 75%;
-        margin: auto;
-        display: flex;
+    nav{
+        width: 60%;
+        margin: auto 0 auto  auto;;
+        display: flex ;
         flex-flow: row nowrap;
         justify-content: flex-end;
         align-items: center;
@@ -65,29 +65,31 @@ header{
 
     }
 
-    header nav ul{
+    nav ul{
         list-style: none;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         margin-top: auto;
         margin-bottom: auto;
     }
 
-    header nav ul li{
+    nav ul li{
         min-width: 70px;
         margin: auto;
         font-size: 18px;
         font-weight: bold;
         text-align: center;
+        
     }
 
-    header nav ul li a{
+    nav ul li a{
         color: #303030;
+        width: 100%;
     }
 
-    
+
     @media only screen and (max-width: 1100px){
         header{
             flex-flow: column nowrap;
@@ -103,10 +105,13 @@ header{
             width: 100%;
             margin-top: 20px;
             margin-bottom: 20px;
+            justify-content: center;
+
         }
         
         header nav li{
             width: 50%;
+            min-width: 150px;
         }
     }
     
